@@ -5,7 +5,7 @@ on:
 
 jobs:
   eosio-contract-api:
-    runs-on: golang:1.18
+    runs-on: ubuntu-latest
     steps:
     - name: Notify the commit on Telegram
       uses: EverythingSuckz/github-telegram-notify@main
